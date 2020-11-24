@@ -1,0 +1,75 @@
+body{
+    background: url('main.png') no-repeat center fixed;
+    background-size: cover;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5rem;
+    border:3px solid rgb(107, 99, 66);
+    border-radius: 5px;
+}
+
+#countdown{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background: #555;
+    color: #f1f1f1;
+    padding: 10px 16px;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+.content{
+    border: 3px solid black;
+    padding: 5px 5px 5px 5px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 70px;
+}
+
+.sticky{
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.text{
+    width: 45%;
+    float: right;
+    margin-top: -2430px;
+}
+
+#typing{
+    font-size: 20px;
+    padding: 2px 2px 2px 2px;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 3px;
+    padding: 2px 2px 2px 2px;
+    /* background-color: rgb(189, 156, 106); */
+}
+
+li a{
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+    font-size: large;
+}
+
+img{
+    height: 25px;
+    width: 23px;
+}
